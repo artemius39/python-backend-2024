@@ -6,10 +6,16 @@
 pip install -r hw1/requirements.txt
 ```
 
-Запустить:
+Запустить приложение:
 
 ```
 uvicorn hw1.main:app
+```
+
+Запустить тесты:
+
+```
+pytest tests
 ```
 
 ### Задание
