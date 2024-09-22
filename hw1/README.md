@@ -1,3 +1,17 @@
+### Запуск приложения
+
+Установить зависимости из `requirements.txt`:
+
+```
+pip install -r hw1/requirements.txt
+```
+
+Запустить:
+
+```
+uvicorn hw1.main:app
+```
+
 ### Задание
 
 Реализовать "Математическое API" из примера напрямую через ASGI-compatible
