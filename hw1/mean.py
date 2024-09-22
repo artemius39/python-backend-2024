@@ -1,6 +1,6 @@
 import json
 
-from lib import asgi_utils
+from util import asgi_utils
 
 
 async def mean_handler(_, receive, send):

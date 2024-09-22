@@ -2,7 +2,7 @@ import urllib
 
 import math
 
-from lib import asgi_utils
+from util import asgi_utils
 
 async def factorial_handler(scope, _, send):
     query_params = urllib.parse.parse_qs(scope['query_string'])

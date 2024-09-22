@@ -1,4 +1,4 @@
-import lib.asgi_utils as asgi_utils
+import util.asgi_utils as asgi_utils
 from hw1.factorial import factorial_handler
 from hw1.fibonacci import fibonacci_handler
 from hw1.mean import mean_handler

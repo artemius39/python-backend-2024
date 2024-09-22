@@ -1,4 +1,4 @@
-import lib.asgi_utils as asgi_utils
+import util.asgi_utils as asgi_utils
 
 async def fibonacci_handler(scope, _, send):
     path = scope["path"]
